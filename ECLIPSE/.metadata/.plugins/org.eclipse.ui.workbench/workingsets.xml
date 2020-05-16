@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1577644450290_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1577644450308_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578227931526_3" label="JavaBasics" name="JavaBasics">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BasicProgram" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578599755203_5" label="Theatersoftwerkskammer" name="Theatersoftwerkskammer">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/theater" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1577644456552_2" label="Window Working Set" name="Aggregate for window 1577644456551"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578599758250_6" label="Multiple Working Sets" name="Aggregate:JavaBasics:Theatersoftwerkskammer:">
+<workingSet IMemento.internal.id="JavaBasics"/>
+<workingSet IMemento.internal.id="Theatersoftwerkskammer"/>
+</workingSet>
+<mruList name="JavaBasics"/>
+</workingSetManager>

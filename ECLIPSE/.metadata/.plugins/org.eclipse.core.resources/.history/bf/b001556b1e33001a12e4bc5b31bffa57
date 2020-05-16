@@ -1,0 +1,14 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Booking {
+
+	public List<Integer> reserve(int i) {
+		List<Integer> listofseats = new ArrayList<Integer>(); 
+		listofseats.add(i);
+	return listofseats;
+	}
+
+}
