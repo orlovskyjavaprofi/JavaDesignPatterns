@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import behaviors.FlyNoWay;
-import behaviors.FlyWithWings;
-import behaviors.MuteQuack;
-import behaviors.Quack;
-import behaviors.Squeak;
-import model.Animal;
+import implementtointerface.behaviors.FlyNoWay;
+import implementtointerface.behaviors.FlyWithWings;
+import implementtointerface.behaviors.MuteQuack;
+import implementtointerface.behaviors.Quack;
+import implementtointerface.behaviors.Squeak;
+import implementtointerface.model.Animal;
 
 class BehaviorOfDucksTest {
 	private Animal duck;

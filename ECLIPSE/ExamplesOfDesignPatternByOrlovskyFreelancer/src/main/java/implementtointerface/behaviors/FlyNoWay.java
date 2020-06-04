@@ -1,6 +1,6 @@
-package behaviors;
+package implementtointerface.behaviors;
 
-import model.FlyableBehavior;
+import implementtointerface.model.FlyableBehavior;
 
 public class FlyNoWay implements FlyableBehavior {
 

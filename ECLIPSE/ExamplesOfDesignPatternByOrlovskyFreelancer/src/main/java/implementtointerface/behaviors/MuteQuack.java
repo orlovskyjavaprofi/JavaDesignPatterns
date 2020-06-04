@@ -1,6 +1,6 @@
-package behaviors;
+package implementtointerface.behaviors;
 
-import model.QuackableBehavior;
+import implementtointerface.model.QuackableBehavior;
 
 public class MuteQuack implements QuackableBehavior {
 

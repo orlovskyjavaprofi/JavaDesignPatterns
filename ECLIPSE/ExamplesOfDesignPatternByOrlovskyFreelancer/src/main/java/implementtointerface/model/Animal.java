@@ -1,4 +1,4 @@
-package model;
+package implementtointerface.model;
 
 public class Animal {
 
