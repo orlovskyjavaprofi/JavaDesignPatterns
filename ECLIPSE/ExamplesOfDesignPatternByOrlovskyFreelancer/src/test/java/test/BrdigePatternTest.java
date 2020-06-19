@@ -15,16 +15,16 @@ class BrdigePatternTest {
 	private TVFactory tvFactoryObj;
 	private Sony sonyTVObj;
 	private LG lgTVObj;
-	private GenericRemote genericRemoteObj;
-	private SpecialRemote specialRemoteObj;
+	private GenericRemote genericRemoteControlObj;
+	private SpecialRemote specialRemoteControlObj;
 
 	@BeforeEach
 	public void setUp() {
 		tvFactoryObj = new TVFactory();
 		sonyTVObj = new Sony();
 		lgTVObj = new LG();
-		genericRemoteObj = new GenericRemote(tvFactoryObj);
-		specialRemoteObj = new SpecialRemote(tvFactoryObj);
+		genericRemoteControlObj = new GenericRemote(tvFactoryObj);
+		specialRemoteControlObj = new SpecialRemote(tvFactoryObj);
 
 	}
 
@@ -45,12 +45,12 @@ class BrdigePatternTest {
 
 	@Test
 	public void checkIfGenericRemoteObjCanBeCreated() {
-		assertNotNull(genericRemoteObj);
+		assertNotNull(genericRemoteControlObj);
 	}
 
 	@Test
 	public void checkIfSpecialRemoteObjCanBeCreated() {
-		assertNotNull(specialRemoteObj);
+		assertNotNull(specialRemoteControlObj);
 	}
 
 	@Test
@@ -78,17 +78,17 @@ class BrdigePatternTest {
 	@Test
 	public void showThatAllTvsWorking() {
 		System.out.println("Connect your remote to the Sony TV");
-		specialRemoteObj.setTV("Sony");
-		specialRemoteObj.on();
-		specialRemoteObj.up();
-		specialRemoteObj.down();
-		specialRemoteObj.off();
+		specialRemoteControlObj.setTV("Sony");
+		specialRemoteControlObj.on();
+		specialRemoteControlObj.up();
+		specialRemoteControlObj.down();
+		specialRemoteControlObj.off();
 		System.out.println("\n\nConnect your remote to the LG TV");
-		specialRemoteObj.setTV("LG");
-		specialRemoteObj.on();
-		specialRemoteObj.up();
-		specialRemoteObj.down();
-		specialRemoteObj.off();
+		specialRemoteControlObj.setTV("LG");
+		specialRemoteControlObj.on();
+		specialRemoteControlObj.up();
+		specialRemoteControlObj.down();
+		specialRemoteControlObj.off();
 	}
 
 }
